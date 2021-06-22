@@ -12,29 +12,29 @@
                 <li> <a href="">shop</a> </li>
                 <li> <a href="">events</a> </li>
                 <li> <a href="">elements</a> </li>
-                <li> <a href="">serch</a> </li>
-                <li> <a href="">menu</a> </li>
+                <li> <a href=""> <i class="fas fa-search"></i> </a> </li>
+                <li> <a href=""> <i class="far fa-ellipsis-v"></i> <i class="fas fa-bars"></i> </a> </li>
             </ul>
 
         </nav>
        <div id="shop_slide">
             <div class="row box">
                 <div class="col-1 arrows">
-                    ←
+                    <i class="fas fa-long-arrow-alt-left"></i>
                 </div>
                 <div class="col-10" id="slide">
                     <div id="slide">
                         <h1>OurTeam<span>.</span></h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde reprehenderit sed nostrum tenetur.</p>
                         <div class="buttons">
-                            <button style="background-color: white;">read more <span>|</span> →</button>
-                            <button class="orange">purchase <span>|</span> →</button>
+                            <button style="background-color: white;">read more <span>|</span> <i class="fas fa-long-arrow-alt-right"></i></button>
+                            <button class="orange">purchase <span>|</span> <i class="fas fa-long-arrow-alt-right"></i></button>
                         </div>
                     </div>
                     
                 </div>
                 <div class="col-1 arrows">
-                    →
+                   <i class="fas fa-long-arrow-alt-right"></i>
                 </div>
             </div>
         </div>
@@ -49,6 +49,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "../components/style/General";
+@import '../../node_modules/fontawesome-free/css/all.css';
     header {
         height: 100vh;
         width: 100%;
@@ -101,7 +102,7 @@ export default {
                 .arrows {
                     height: 100%;
                     //background-color: chartreuse;
-                    font-size: 50px;
+                    font-size: 25px;
                     color: black;
                     display: flex;
                     align-items: center;
