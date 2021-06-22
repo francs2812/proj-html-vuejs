@@ -119,6 +119,7 @@ export default {
 
                     p {
                         width: 40%;
+                        color: $greyText;
                     }
                     .buttons {
                             button {
