@@ -4,20 +4,19 @@
           <Specialties />
       </div>
       <div>
-          <h1>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non velit exercitationem consequatur reiciendis eaque, aspernatur iure omnis, asperiores repellendus labore dignissimos eos error est tempora saepe voluptates eius, similique corrupti id laboriosam. Nesciunt tenetur ea cum soluta sapiente cupiditate dolores, saepe ad perferendis laboriosam ipsum voluptatum enim, excepturi debitis iure.
-
-          </h1>
+          <Founder />
       </div>
   </main>
 </template>
 
 <script>
 import Specialties from '../components/Specialties.vue'
+import Founder from './Founder.vue'
 export default {
     name: "Main",
     components: {
-        Specialties
+        Specialties,
+        Founder
   }
 
 }
