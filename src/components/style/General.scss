@@ -12,5 +12,22 @@
 $orange: #FF4612 ;
 $grey: #fafafa;
 $grayBold: #d2d2d2;
-$greyText: #bdbdbd
+$greyText: #bdbdbd;
 // \COLOR
+
+.orange-class {
+ color : $orange;
+}
+
+.line-space {
+    width: 10%;
+    height: 5px;
+    border-radius: 3px;
+    background-color: $orange;
+
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    color: $greyText;
+}

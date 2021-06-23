@@ -62,6 +62,7 @@ export default {
         section {
             width: 100%;
             padding:5% 20%;
+            display: inline-block;
             background-color: white;
 
             .text {

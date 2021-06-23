@@ -16,6 +16,11 @@
           <Leader />
       </div>
 
+      <div>
+          <News />
+      </div>
+    
+
   </main>
 </template>
 
@@ -24,6 +29,7 @@ import Specialties from '../components/Specialties.vue'
 import Founder from './Founder.vue'
 import Calendar from './Calendar.vue'
 import Leader from './Leader.vue'
+import News from './News.vue'
 
 
 export default {
@@ -32,7 +38,8 @@ export default {
         Specialties,
         Founder,
         Calendar,
-        Leader
+        Leader,
+        News
   }
 
 }
