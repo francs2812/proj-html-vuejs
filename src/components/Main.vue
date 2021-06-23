@@ -19,6 +19,14 @@
       <div>
           <News />
       </div>
+
+      <div>
+          <Review />
+      </div>
+
+      <div>
+          <Video />
+      </div>
     
 
   </main>
@@ -30,6 +38,8 @@ import Founder from './Founder.vue'
 import Calendar from './Calendar.vue'
 import Leader from './Leader.vue'
 import News from './News.vue'
+import Review from './Review.vue'
+import Video from './Video.vue'
 
 
 export default {
@@ -39,7 +49,9 @@ export default {
         Founder,
         Calendar,
         Leader,
-        News
+        News,
+        Review,
+        Video
   }
 
 }
