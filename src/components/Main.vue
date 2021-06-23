@@ -27,6 +27,10 @@
       <div>
           <Video />
       </div>
+
+      <div>
+          <Contacs />
+      </div>
     
 
   </main>
@@ -40,6 +44,7 @@ import Leader from './Leader.vue'
 import News from './News.vue'
 import Review from './Review.vue'
 import Video from './Video.vue'
+import Contacs from './Contacs.vue'
 
 
 export default {
@@ -51,7 +56,8 @@ export default {
         Leader,
         News,
         Review,
-        Video
+        Video,
+        Contacs
   }
 
 }
