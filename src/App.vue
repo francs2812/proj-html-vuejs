@@ -23,7 +23,6 @@ export default {
 @import '../node_modules/fontawesome-free/css/all.css';
 @import "./components/style/General";
 
-
   *{
     margin: 0;
     padding: 0;

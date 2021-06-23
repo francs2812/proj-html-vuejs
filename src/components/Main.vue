@@ -3,20 +3,36 @@
       <div id="specialties">
           <Specialties />
       </div>
+
       <div>
           <Founder />
       </div>
+
+      <div>
+          <Calendar />
+      </div>
+
+      <div>
+          <Leader />
+      </div>
+
   </main>
 </template>
 
 <script>
 import Specialties from '../components/Specialties.vue'
 import Founder from './Founder.vue'
+import Calendar from './Calendar.vue'
+import Leader from './Leader.vue'
+
+
 export default {
     name: "Main",
     components: {
         Specialties,
-        Founder
+        Founder,
+        Calendar,
+        Leader
   }
 
 }

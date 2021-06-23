@@ -1,6 +1,6 @@
 <template>
   <section>
-      <img src="../assets/img/h1-blog-img-04.jpg" alt="foto">
+      <img id="img1" src="../assets/img/h1-blog-img-04.jpg" alt="foto">
       <div class="textbox">
           <h1>Jason Bickford</h1>
           <p>Founder and Executive Director</p>
@@ -21,6 +21,7 @@
               <i class="fab fa-twitter "></i>
           </span>
       </div>
+          <img id="img2" src="../assets/svg/svg-4.svg" alt="">
   </section>
 </template>
 
@@ -41,7 +42,7 @@ export default {
         position: relative;
         padding: 20px;
 
-        img {
+        #img1 {
             height: 400px;
             position: absolute;
             transform: translate(-50%, -50%);
@@ -57,6 +58,8 @@ export default {
             position: absolute;
             left: 65%;
             top: 50%;
+            z-index: 3;
+
             h1 {
                 font-family: 'Libre Baskerville', serif;
             }
@@ -90,5 +93,12 @@ export default {
             }
 
         }
+            #img2 {
+                position: absolute;
+                transform: translate(-50%, -50%);
+                left: 80%;
+                top: 25%;
+                z-index: 0;
+            }
     }
 </style>>
